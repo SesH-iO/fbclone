@@ -3,12 +3,12 @@ import 'firebase/storage';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: 'AIzaSyAXk6hIFCXQDaVCE28NIH5PX-FnbVxe1hU',
   authDomain: 'fbclone-b3cc4.firebaseapp.com',
   projectId: 'fbclone-b3cc4',
   storageBucket: 'fbclone-b3cc4.appspot.com',
   messagingSenderId: '171778166363',
-  appId: process.env.FIRBASE_APP_ID,
+  appId: '1:171778166363:web:3cce393bed90d1266c797e',
 };
 
 const app = !firebase.apps.length
